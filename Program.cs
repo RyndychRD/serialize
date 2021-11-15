@@ -12,7 +12,6 @@ namespace serialize_RyndychRD
         public static int rand1 = 0;
         public const string SEPARATOR = "|";
         public const string CYCLE_FLAG = "Cycle";
-
     }
 
     class ListNode
@@ -32,8 +31,6 @@ namespace serialize_RyndychRD
         {
             Data = data;
         }
-
-
     }
 
 
@@ -44,7 +41,7 @@ namespace serialize_RyndychRD
         public ListNode Tail;
         public int Count;
 
-        //fill random node in current node
+        //fill random node attribute in current node
         public void addRandomInNode(ListNode node)
         {
             int rand = Globals.rand.Next() % Count;
@@ -191,7 +188,7 @@ namespace serialize_RyndychRD
             return result;
         }
 
-        public static void generate_sequence(ListRandom nodeList )
+        public static void generate_sequence(ListRandom nodeList)
         {
             //Change here for shorter/bigger generating sequence
             int length = 5;
@@ -204,9 +201,8 @@ namespace serialize_RyndychRD
 
             nodeList.simple_list_fill(length);
 
-            //Unlock if you want circular double linked list
-
-            //nodeList.make_cycle();
+            //Lock if you dont want circular double linked list
+            nodeList.make_cycle();
         }
 
         static void Main(string[] args)
@@ -215,10 +211,10 @@ namespace serialize_RyndychRD
             ListRandom nodeList2 = new ListRandom();
 
             generate_sequence(nodeList);
-            
+
             Console.WriteLine("__Generated list__");
             nodeList.print_assosiated_data();
-            
+
             FileStream fs;
             try
             {
@@ -243,7 +239,6 @@ namespace serialize_RyndychRD
                 Console.WriteLine(e);
             }
 
-
             try
             {
                 fs = new FileStream("serialized_node_list", FileMode.Open);
@@ -258,7 +253,6 @@ namespace serialize_RyndychRD
 
 
             Console.WriteLine("__Deserialized list__");
-
             nodeList2.print_assosiated_data();
 
             if (is_identical(nodeList, nodeList2))
