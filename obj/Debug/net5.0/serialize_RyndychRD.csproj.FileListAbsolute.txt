@@ -1,0 +1,16 @@
+D:\Users\Professional\source\repos\serialize_RyndychRD\serialize_RyndychRD\bin\Debug\net5.0\serialize_RyndychRD.exe
+D:\Users\Professional\source\repos\serialize_RyndychRD\serialize_RyndychRD\bin\Debug\net5.0\serialize_RyndychRD.deps.json
+D:\Users\Professional\source\repos\serialize_RyndychRD\serialize_RyndychRD\bin\Debug\net5.0\serialize_RyndychRD.runtimeconfig.json
+D:\Users\Professional\source\repos\serialize_RyndychRD\serialize_RyndychRD\bin\Debug\net5.0\serialize_RyndychRD.runtimeconfig.dev.json
+D:\Users\Professional\source\repos\serialize_RyndychRD\serialize_RyndychRD\bin\Debug\net5.0\serialize_RyndychRD.dll
+D:\Users\Professional\source\repos\serialize_RyndychRD\serialize_RyndychRD\bin\Debug\net5.0\ref\serialize_RyndychRD.dll
+D:\Users\Professional\source\repos\serialize_RyndychRD\serialize_RyndychRD\bin\Debug\net5.0\serialize_RyndychRD.pdb
+D:\Users\Professional\source\repos\serialize_RyndychRD\serialize_RyndychRD\obj\Debug\net5.0\serialize_RyndychRD.csproj.AssemblyReference.cache
+D:\Users\Professional\source\repos\serialize_RyndychRD\serialize_RyndychRD\obj\Debug\net5.0\serialize_RyndychRD.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Professional\source\repos\serialize_RyndychRD\serialize_RyndychRD\obj\Debug\net5.0\serialize_RyndychRD.AssemblyInfoInputs.cache
+D:\Users\Professional\source\repos\serialize_RyndychRD\serialize_RyndychRD\obj\Debug\net5.0\serialize_RyndychRD.AssemblyInfo.cs
+D:\Users\Professional\source\repos\serialize_RyndychRD\serialize_RyndychRD\obj\Debug\net5.0\serialize_RyndychRD.csproj.CoreCompileInputs.cache
+D:\Users\Professional\source\repos\serialize_RyndychRD\serialize_RyndychRD\obj\Debug\net5.0\serialize_RyndychRD.dll
+D:\Users\Professional\source\repos\serialize_RyndychRD\serialize_RyndychRD\obj\Debug\net5.0\ref\serialize_RyndychRD.dll
+D:\Users\Professional\source\repos\serialize_RyndychRD\serialize_RyndychRD\obj\Debug\net5.0\serialize_RyndychRD.pdb
+D:\Users\Professional\source\repos\serialize_RyndychRD\serialize_RyndychRD\obj\Debug\net5.0\serialize_RyndychRD.genruntimeconfig.cache
